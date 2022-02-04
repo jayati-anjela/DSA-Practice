@@ -18,3 +18,4 @@ int countZero(int n)
 }
 
 // causes overflow for higher values of n
+//  Time Complexity Theta n
