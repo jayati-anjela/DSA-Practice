@@ -23,4 +23,4 @@ int main() {
 	cout<<power(x, n);
 }
 
-// log n time complexity
+// log n time complexity + log n aux space
