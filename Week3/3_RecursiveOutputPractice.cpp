@@ -2,18 +2,20 @@
 using namespace std;
 
 
-void fun1(int n)
+void fun(int n)
 {
 	if(n == 0)
 		return;
 
-	cout<<"GFG"<<endl;
+	cout<<n<<endl;
 
-	fun1(n - 1);
+	fun(n - 1);
+	
+	cout<<n<<endl;
 }
 int main() {
 	
-	fun1(2);
+	fun(3);
 	
 	return 0;
-}    
+}
